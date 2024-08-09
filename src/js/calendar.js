@@ -85,6 +85,9 @@
                 alert('Please select a date first.');
             }
         }
-
+        function verNta() {
+            nota = document.getElementById('txtnotas').textContent;
+            
+        }
         // Generate the initial calendar
         generateCalendar(currentMonth, currentYear);

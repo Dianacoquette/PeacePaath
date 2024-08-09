@@ -95,11 +95,13 @@ button {
     width: 274px;
     height: 48px;
     border-radius: 10px;
+    display: none;
     
 }
 #txtnotes > p{
 padding-left: 10px;
 padding-top: 10px;
+display: none;
 }
 #back{
    color: #D99F9A;
@@ -117,4 +119,13 @@ padding-top: 10px;
 #pmind{
     color: #593027;
     font-size: 30px;
+}
+#ntasdh{
+    color: #593027;
+    padding-left: 160px;
+}
+#txtnotas{
+    width: 450px;   /* Ancho de 300 píxeles */
+    height: 150px;  /* Alto de 150 píxeles */
+    resize: none;   /* Deshabilita el redimensionamiento */
 }
