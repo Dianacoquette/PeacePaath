@@ -86,8 +86,18 @@
             }
         }
         function verNta() {
-            nota = document.getElementById('txtnotas').textContent;
-            
+           var notita = document.getElementById('txtnotas').value;
+           document.getElementById('contentp').innerText = notita;
+
+        }
+
+        function verdiv() {
+            var elem = document.getElementById("txtnotes");
+            if (elem.style.display = "none") {
+                elem.style.display = "block";
+            }else{
+                elem.style.display = "none";
+            }
         }
         // Generate the initial calendar
         generateCalendar(currentMonth, currentYear);

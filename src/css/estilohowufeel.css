@@ -96,12 +96,10 @@ button {
     height: 48px;
     border-radius: 10px;
     display: none;
-    
 }
-#txtnotes > p{
+#contentp{
 padding-left: 10px;
 padding-top: 10px;
-display: none;
 }
 #back{
    color: #D99F9A;
@@ -128,4 +126,8 @@ display: none;
     width: 450px;   /* Ancho de 300 píxeles */
     height: 150px;  /* Alto de 150 píxeles */
     resize: none;   /* Deshabilita el redimensionamiento */
+}
+#bouts{
+    background-color: #593027;
+    border: none;
 }

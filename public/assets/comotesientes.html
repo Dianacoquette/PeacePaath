@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,38 +43,39 @@
         </table>
 
         <div class="button-container">
-            <button class="bntro" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-solid fa-plus" id="movi"></i> ¿Cómo te sientes hoy?</button>
+            <button class="bntro"><i class="fa-solid fa-plus" id="movi"></i> ¿Cómo te sientes hoy?</button>
         </div>
-        <!-- The Modal -->
-<div class="modal" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-  
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title" id="ntasdh">Notas De Hoy</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-  
-        <!-- Modal body -->
-        <div class="modal-body">
-         <textarea name="txtnotas" id="txtnotas" rows="10" cols="30" maxlength="100"></textarea>
-        </div>
-  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div>
-  
-      </div>
-    </div>
-  </div>
+    
         <div class="button-container">
-            <button class="bntro" onclick="showNotePrompt()"><i class="fa-solid fa-plus" id="movi2"></i> Agregar una nota</button>
+            <button class="bntro" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-solid fa-plus" id="movi2"></i> Agregar una nota</button>
         </div>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" id="ntasdh">Notas De Hoy</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+             <textarea name="txtnotas" id="txtnotas" rows="10" cols="30" maxlength="100"></textarea>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" onclick="verNta(); verdiv();" data-bs-dismiss="modal" id="bouts">Agregar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
         <br>
         <div id="txtnotes">
-            <p></p>
+            <p id="contentp">&lt;</p>
         </div>
     </div>
     <script src="../../src/js/calendar.js"></script>
