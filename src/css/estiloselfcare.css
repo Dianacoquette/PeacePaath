@@ -1,0 +1,97 @@
+#desmind{
+    background-color: #F2C6C2;
+    width: 270px;
+    height: 270px;
+    border-radius: 200px;
+    
+}
+#imgmind{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    z-index: 1; /* Coloca la imagen por encima del pseudo-elemento */
+
+}
+#conc{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#pmind{
+    padding-left: 70px;
+    color: #593027;
+}
+#lot{
+    top: 5%;
+    text-align: center;
+    color: #593027;
+}
+#icarrwo{
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 130% ;
+}
+
+#desmind2{
+    background-color: #F2C6C2;
+    width: 270px;
+    height: 270px;
+    border-radius: 200px;
+    
+}
+#imgmind2{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    z-index: 1; /* Coloca la imagen por encima del pseudo-elemento */
+
+}
+#conc2{
+    float: right;
+    padding-right: 100px;
+}
+#pmind2{
+    padding-left: 80px;
+    color: #593027;
+}
+
+#desmind3{
+    background-color: #F2C6C2;
+    width: 380px;
+    height: 380px;
+    border-radius: 200px;
+    
+}
+#imgmind3{
+    width: 380px;
+    height: 380px;
+}
+#conc3{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+#pmind3{
+    padding-left: 110px;
+    color: #593027;
+}
+#ili{
+    text-decoration: none;
+    color: #D99F9A;
+}
+#contnh{
+    background-color: #D99F9A;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 70px;
+    border-radius: 100px;
+}
+#nh{
+   
+    text-decoration: none;
+    color: #593027;
+}
+#nh:hover{
+    color:white;
+}
+#nh > h2{
+    padding-top: 10px;
+}

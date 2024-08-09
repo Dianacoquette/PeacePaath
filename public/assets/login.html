@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="../../nude_modules/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../nude_modules/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="../../src/css/estiloLogin.css">
+    <link rel="stylesheet" href="../../nude_modules/fontawesome-free-6.5.2-web/css/all.min.css">
+    <script src="../../nude_modules/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <center>
+
+            <div class="row">
+                <div class="col-sm-1">
+                    <div id="icarrwo">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                </div>
+
+                <h2 id="lot">Log In</h2>
+
+            </div>
+        </center>
+        <h2 id="welt">Welcome</h2>
+        <br><br>
+        <center>
+            <div id="mainco">
+                <form action="../../index.html">
+                    <label for="" id="labLog"><strong>Email</strong></label>
+                    <br>
+                    <input type="email" placeholder="    ejemplo@ej.com" name="email" class="inLogin">
+                    <br>
+                    <br>
+                    <label for="" id="labLog2"><strong>Contraseña</strong></label>
+                    <br>
+                    <input type="password" name="txtcontraseña" class="inLogin" placeholder="   ***********">
+                    <br>
+
+
+                    <a href="#" id="olc" data-bs-toggle="modal" data-bs-target="#modallogin">Olvide la Contraseña</a>
+                    <br>
+                    <br>
+                    <div class="modal fade" id="modallogin">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Olvide mi contraseña</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <center>
+                                        <h6>introduce tu correo</h6>
+                                        <input type="email" placeholder="ejemplo@ej.com">
+                                    </center>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <center>
+                                        <button id="botcree" type="button" class="btn"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </center>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" name="submintlogin" class="btn" id="botonlog" value="Log In">
+                    <br><br>
+                    <p>o iniciar sesión con</p>
+
+                    <a href=""><i class="fa-brands fa-google" id="google"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook" id="face"></i></a>
+                    <br>
+                    <br>
+
+                    <p>No tienes una cuenta todavía?<a href="../assets/singin.html" id="olc2"> sing up</a></p>
+
+                </form>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>

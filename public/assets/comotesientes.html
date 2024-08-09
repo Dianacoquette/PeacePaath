@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario</title>
+    <link rel="stylesheet" href="../../src/css/estilohowufeel.css">
+    <link rel="stylesheet" href="../../nude_modules/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../nude_modules/fontawesome-free-6.5.2-web/css/all.min.css">
+</head>
+<body>
+    <div id="hbak">
+        <a href="../assets/selfcare.html" id="back"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+    <div>
+        <div id="conc">
+            <p id="pmind"><strong>Despeja tu mente</strong></p>
+        </div>
+
+    </div>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button onclick="previousMonth()">&lt;</button>
+            <h2 id="colh2">Agosto 2024</h2>
+            <button onclick="nextMonth()">&gt;</button>
+        </div>
+
+        <table class="calendar-table">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <div class="button-container">
+            <button class="bntro" onclick="showFeelingPrompt()"><i class="fa-solid fa-plus" id="movi"></i> ¿Cómo te sientes hoy?</button>
+        </div>
+        <div class="button-container">
+            <button class="bntro" onclick="showNotePrompt()"><i class="fa-solid fa-plus" id="movi2"></i> Agregar una nota</button>
+        </div>
+        <br>
+        <div id="txtnotes">
+            <p>hi</p>
+        </div>
+    </div>
+    <script src="../../src/js/calendar.js"></script>
+</body>
+</html>

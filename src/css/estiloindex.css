@@ -1,0 +1,315 @@
+*,*:after, *:before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contcarga{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+   -webkit-transition: all 2s ease;
+   -o-transition: all 2s ease;
+   transition: all 2s ease;
+   z-index: 10000;
+}
+.carga{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+#leydei{
+    padding-left: 30px;
+    color: #593027;
+    
+}
+header{
+padding: 0;
+margin: 0;
+}
+
+#cont{
+    background-color: #ffffff ;
+    
+}
+#parr{
+    color: #593027;
+    
+}
+
+
+#contag{
+    background-color: #FFEFEE;
+    width: 100%;
+    clear: both;
+}
+
+#fech{
+    padding-left: 77%;
+}
+
+#contbl{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    padding-left: 200px;
+   
+      
+}
+
+#conte{
+    
+    background-color: #FFEFEE;
+    border-radius: 20px;
+    width: 900px;
+}
+
+#h2my{
+    color: #593027;
+    text-align: center;
+    top: 20%;
+}
+#immy{
+    border: #D99F9A 3px  solid;
+    width: 384px;
+    height: 384px; 
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+#barr{
+    background-color: #D99F9A;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    
+    padding-top: 12px;
+    color: #ffffff;
+
+}
+#contentconsu{
+     margin-bottom: 5%;
+     
+}
+#sih5{
+ padding: 10px;
+   padding-left: 40px;
+}
+#sera{
+    width: 400px;
+ float: right;
+}
+#bus{
+    color: #8C4D52;
+}
+
+#boxsea{
+    border: none;
+    border-radius: 100px;
+    background-color: #FFEFEE;
+}
+#sem{
+    width: 70px;
+    height: 108px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+#sem2{
+    width: 70px;
+    height: 108px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+#sem3{
+    width: 70px;
+    height: 108px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+#sem4{
+    width: 70px;
+    height: 108px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+#sem5{
+    width: 70px;
+    height: 108px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+#sem6{
+    width: 70px;
+    height: 108px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+.numse{
+    
+    text-decoration-thickness: 100px;
+    
+}
+
+#sem:hover{
+    color: white;
+    background-color: #D99F9A;
+    
+}
+
+#sem2:hover{
+    color: white;
+    background-color: #D99F9A;
+    
+}
+#sem3:hover{
+    color: white;
+    background-color: #D99F9A;
+    
+}
+#sem4:hover{
+    color: white;
+    background-color: #D99F9A;
+    
+}
+#sem5:hover{
+    color: white;
+    background-color: #D99F9A;
+    
+}
+#sem6:hover{
+    color: white;
+    background-color: #D99F9A;
+    
+}
+
+#conpsem{
+    
+    padding-left: 390px;
+    clear: both;
+
+   
+}
+
+#perf{
+    padding-left: 0%;
+    padding-top: 1%;
+    
+}
+
+
+#userpfp{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+#iconus{
+    font-size: 150%;  
+    color: #593027; 
+}
+#isn{
+    padding-top: 1%;
+    padding-left: 10%;
+    font-size: 150% ;
+}
+
+#x{
+    float:right;
+    color: #8C4D52;
+    
+    
+}
+#psf{
+    color: #8C4D52;
+    font-size: 20px;
+    text-decoration: none;
+}
+.linkarr{
+    color: #8C4D52;
+    font-size: 27px;
+    text-decoration: none;
+}
+.linkarr:hover{
+    color: #D99F9A;
+}
+
+#fav{
+    padding-right: 500px;
+   
+}
+
+#plus{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#plus:hover{
+    text-decoration: none;
+    color: #593027;
+    
+}
+#botcree{
+    background-color: #D99F9A;
+}
+
+#botcree:hover{
+    background-color: #D99F9A;
+    color: white;
+}
+
+#pfc{
+    text-decoration: none;
+    color: black;
+}
+#pfc:hover{
+    text-decoration: none;
+    color: #D99F9A;
+}
+
+#tset{
+    text-decoration: none;
+  
+    color: #593027;
+}
+#tset2{
+    
+    text-decoration: none;
+    color: #593027;
+}

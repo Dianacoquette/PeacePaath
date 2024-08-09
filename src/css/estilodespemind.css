@@ -1,0 +1,100 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+#icarrwo{
+    padding: 10px;
+    padding-left: 100px;
+}
+#ili{
+    text-decoration: none;
+    color: #D99F9A;
+    font-size: 25px;
+}
+#lot{
+    top: 5%;
+    text-align: center;
+    color: #593027;
+}
+
+#iclot{
+
+    background-color: #F2C6C2;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+}
+#imlott{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+#contall{
+    padding-left: 100px;
+}
+.linkarr{
+    color: #8C4D52;
+    font-size: 27px;
+    text-decoration: none;
+}
+.linkarr:hover{
+    color: #D99F9A;
+}
+#sera{
+    width: 400px;
+ float: right;
+}
+#boxsea{
+    border: none;
+    border-radius: 100px;
+    background-color: #FFEFEE;
+}
+#bus{
+    color: #8C4D52;
+}
+#eta{
+    margin-left: 100px;
+    background-color: #FFEFEE;
+    width: 480px;
+    height: 280px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+#eta2{
+    float: right;
+   
+    margin-left: 100px;
+    background-color: #FFEFEE;
+    width: 480px;
+    height: 280px;
+    border-radius: 30px;
+
+}
+#imm{
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 390px;
+}
+#descon{
+    margin-left: 70px;
+    width: 200px;
+}
+#corasi{
+    background-color: white;
+    padding-top: 6px;
+    margin-left: 300px;
+}
+#corasi > a{
+    text-decoration: none;
+    color: #593027;
+}
+#points{
+    padding-left: 320px;
+}
+#points > a {
+    text-decoration: none;
+    color: #593027;
+
+}
+

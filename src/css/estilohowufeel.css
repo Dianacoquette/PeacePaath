@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+    margin: 0;
+}
+
+.calendar-header button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.calendar-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 14.28%; /* Equal width for each day */
+}
+
+.calendar-table th {
+    background-color: #ffd1d1;
+}
+
+.calendar-table td {
+    cursor: pointer;
+}
+
+.button-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEFEE;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+.bntro{
+    border-radius: 100px;
+    width: 274px;
+    height: 48px;
+}
+#movi{
+    float: left;
+    padding-top: 5px;
+   padding-left: 10px;
+}
+#movi2{
+   float: left;
+   padding-top: 5px;
+   padding-left: 10px;
+}
+#txtnotes{
+    background-color: #FFEFEE;
+    width: 274px;
+    height: 48px;
+    border-radius: 10px;
+    
+}
+#txtnotes > p{
+padding-left: 10px;
+padding-top: 10px;
+}
+#back{
+   color: #D99F9A;
+
+}
+#hbak{
+    float: left;
+    padding-top: 100px;
+    padding-right: 1200px;
+}
+#colh2{
+    color: #593027;
+    
+}
+#pmind{
+    color: #593027;
+    font-size: 30px;
+}

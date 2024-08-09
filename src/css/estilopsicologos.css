@@ -1,0 +1,155 @@
+#barr{
+    background-color: #D99F9A;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    padding-top: 12px;
+    left: 587px;
+    color: #ffffff;
+    margin-top: 180px;
+    position: sticky;
+
+}
+#icarrwo{
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 130% ;
+    
+}
+#arro{
+    color: #D99F9A;
+}
+
+#titlo{
+    color: #593027;
+    
+}
+.iconsc{
+    color: #8C4D52;
+    padding-top: 5%;
+    font-size: 130%;
+}
+.iconsc:hover{
+    color: #91676a;
+    padding-top: 5%;
+    font-size: 130%;
+}
+#discard{
+    background-color: #FFEFEE;
+    width: 600px;
+    height: 230px;
+    border-radius: 30px;
+}
+#imps{
+    float: left;
+   margin-top: 10px;
+   margin-left: 12px;
+    width: 190px;
+    height: 190px;
+    border-radius: 200px;
+}
+#corcal{
+    margin-left: 100px;
+}
+#nomdesc{
+    color: #593027;
+    margin-right: 200px;
+    padding-top: 30px;
+}
+#hsix{
+    font-size: 27px;
+}
+#descr{
+    font-size: 17px;
+}
+.bninf{
+    background-color: #593027;
+    border: none;
+    border-radius: 100px;
+    color: #ffffff;
+    width: 70px;
+}
+.bninf:hover{
+    background-color: #91676a;
+}
+#incalcor{
+    margin-top: 70px;
+}
+.icwhi{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.icons{
+    text-decoration: none;
+    color: #593027;
+    
+}
+#hera{
+    padding-top: 7px;
+}
+#hera:hover{
+    color: #91676a;
+}
+#hera2{
+    padding-top: 7px;
+}
+#hera2:hover{
+    color: #91676a;
+}
+.icsort{
+    color: #593027;
+    text-decoration: none;
+}
+.icsort:hover{
+    color:#ffffff;
+
+    
+}
+#az{
+    background-color: #FFEFEE;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+
+}
+#az:hover{
+    background-color: #8C4D52;
+}
+#assor{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.soricss{
+    background-color: #FFEFEE;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.soricss:hover{
+    background-color: #8C4D52;
+    
+}
+#starmv{
+    padding-left: 6px;
+    padding-top: 2px;
+}
+#muj{
+    padding-left: 8px;
+    padding-top: 7px;
+
+}
+#hom{
+    padding-left: 7px;
+    padding-top: 3px;
+}
+#sortby{
+    width: 100px;
+    padding-left: 10px;
+}
+#claocn{
+    padding-left: 1px;
+    padding-right: 0px;
+    float: inline-start;
+}

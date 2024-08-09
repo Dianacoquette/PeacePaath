@@ -1,0 +1,64 @@
+.boxtext{
+    width: 400px;
+    height: 50px;
+     border-radius: 10px;
+     border: 0;
+     background-color:#FFEFEE ;
+}
+
+#submitb{
+    background-color: #8C4D52;
+    border-radius: 100px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    
+}
+
+#txtsing{
+    padding-right: 240px;
+}
+#txtsing2{
+    padding-right: 300px;
+}
+#txtsing3{
+    padding-right: 340px;
+}
+#txtsing4{
+    padding-right: 230px;
+}
+
+#mainco{
+    padding-top: 50px;
+}
+
+#icarrwo{
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 130% ;
+}
+#lot{
+    top: 5%;
+    text-align: center;
+    color: #593027;
+}
+#google{
+    color: #D99F9A;
+    font-size: 200%;
+}
+
+#face{
+    color: #D99F9A;
+    font-size: 200%;
+}
+
+#olc2{
+    text-decoration: none;
+    color: #D99F9A;
+ }
+
+ input::placeholder{
+    color: #D99F9A;
+    opacity: 1;
+ }

@@ -1,0 +1,71 @@
+#lot{
+    top: 5%;
+    text-align: center;
+    color: #593027;
+}
+
+
+
+#welt{
+    padding-left: 5%;
+    color: #593027;
+}
+#icarrwo{
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 130% ;
+}
+.inLogin{
+    width: 400px;
+   height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color:#FFEFEE ;
+    text-decoration-color: #D99F9A;
+}
+#olc{
+    padding-left: 240px;
+   text-decoration: none;
+   color: #D99F9A;
+}
+#olc2{
+   text-decoration: none;
+   color: #D99F9A;
+}
+#labLog{
+    padding-right: 340px;
+    clear: both;
+}
+#labLog2{
+    padding-right: 310px;
+    
+    clear: both;
+}
+#botonlog{
+    background-color: #8C4D52;
+    border-radius: 100px;
+    width: 200px;
+    color: white;
+}
+#google{
+    color: #D99F9A;
+    font-size: 200%;
+}
+
+#face{
+    color: #D99F9A;
+    font-size: 200%;
+}
+input::placeholder{
+    color: #D99F9A;
+    opacity: 1;
+ }
+
+ #botcree{
+    background-color: #D99F9A;
+}
+
+#botcree:hover{
+    background-color: #D99F9A;
+    color: white;
+}
