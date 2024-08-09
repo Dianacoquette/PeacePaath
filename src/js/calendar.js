@@ -99,5 +99,8 @@
                 elem.style.display = "none";
             }
         }
+        function name(params) {
+            
+        }
         // Generate the initial calendar
         generateCalendar(currentMonth, currentYear);
